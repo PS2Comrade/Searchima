@@ -1,16 +1,22 @@
 body {
   max-width: 800px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #121212; /* Dark theme background */
+  color: #ffffff; /* Light text color */
+  font-family: 'Roboto', sans-serif; /* Material You recommended font */
 }
 
 #icon-preview {
-  height: calc(2.25rem + 2px);
-  width: calc(2.25rem + 2px);
+  height: 56px; /* Material You recommended size */
+  width: 56px; /* Material You recommended size */
   object-fit: contain;
+  border-radius: 50%; /* Rounded corners for icons */
 }
 
 mark {
-  background-color: #fff9d8ee;
+  background-color: #fff9d8ee; /* Highlight color */
+  color: #000000; /* Text color for highlights */
 }
 
 /* advanced options are initially hidden */
@@ -19,7 +25,7 @@ mark {
 }
 
 #post-checkbox {
-  margin-bottom: .5rem;
+  margin-bottom: 8px;
 }
 
 input[type=file] {
@@ -29,6 +35,11 @@ input[type=file] {
 label[for=input-file-icon] {
   width: 100%;
   -moz-appearance: button;
+  background-color: #6200ea; /* Material You primary color */
+  color: #ffffff; /* Light text color */
+  padding: 8px 16px;
+  border-radius: 4px; /* Rounded corners */
+  text-align: center;
 }
 
 #instructions {
@@ -39,7 +50,7 @@ label[for=input-file-icon] {
   position: fixed;
   top: 40px;
   left: 50%;
-  margin-left:-20px;
+  margin-left: -20px;
   width: 40px;
   height: 40px;
   background-image: url(icons/arrow.svg);
@@ -54,7 +65,7 @@ label[for=input-file-icon] {
 }
 
 #info p {
-  margin-top: 0.5em;
+  margin-top: 8px;
 }
 
 @keyframes bounce {
