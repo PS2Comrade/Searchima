@@ -4,7 +4,7 @@ body {
   padding: 16px;
   background-color: #121212; /* Dark theme background */
   color: #000000; /* Black text color */
-  font-family: 'Roboto', sans-serif; /* Material You recommended font */
+  font-family: 'Noto', sans-serif; /* Material You recommended font */
 }
 
 #icon-preview {
@@ -118,7 +118,7 @@ label[for=input-file-icon] {
   background-color: #6200ea; /* Material You primary color */
   color: #ffffff; /* Light text color */
   padding: 8px 16px;
-  border-radius: 4px; /* Rounded corners */
+  border-radius: 18px; /* Rounded corners */
   text-align: center;
 }
 
