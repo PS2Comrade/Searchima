@@ -30,6 +30,11 @@ button {
   border:0px solid #ccc;
 } 
 
+.alert, .alert-info, .advanced {
+  border-radius:20px;
+  border:0px solid #ccc;
+} 
+
 button:hover {
   background: var(--secondary-color);
 }
