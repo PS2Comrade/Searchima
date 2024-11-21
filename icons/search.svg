@@ -1,6 +1,48 @@
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
-   - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path fill="#62addd" d="M10,15.1c-3.3,0-6-2.7-6-6c0-3.3,2.7-6,6-6c3.3,0,6,2.7,6,6S13.3,15.1,10,15.1L10,15.1 M17.3,14.3 c2.9-4,2-9.7-2.1-12.6s-9.7-2-12.6,2.1C1.6,5.3,1,7.2,1,9.1c0,5,4.1,9,9,9c1.8,0,3.6-0.6,5.2-1.6l6.2,6.2c0.6,0.6,1.5,0.6,2.1,0   c0.6-0.6,0.6-1.5,0-2.1L17.3,14.3L17.3,14.3z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300mm"
+   height="300mm"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Unnamed document 1"
+   inkscape:export-filename="search-bp.svg"
+   inkscape:export-xdpi="1.3546667"
+   inkscape:export-ydpi="1.3546667"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="300"
+       height="300"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1"
+       style="fill:#00ffff;stroke-width:0.650151"
+       d="m 150,3.6477688 a 95.877833,95.877833 0 0 0 -95.87791,95.8779052 95.877833,95.877833 0 0 0 81.0967,94.654466 v 102.17209 h 29.56324 V 194.24242 A 95.877833,95.877833 0 0 0 245.87791,99.525674 95.877833,95.877833 0 0 0 150,3.6477688 Z m 0,20.7639922 A 75.113995,75.113995 0 0 1 225.11472,99.525674 75.113995,75.113995 0 0 1 150,174.63956 75.113995,75.113995 0 0 1 74.886091,99.525674 75.113995,75.113995 0 0 1 150,24.411761 Z m 14.78203,19.259505 -29.56324,0.01427 V 155.38043 h 29.56324 z" />
+  </g>
 </svg>
