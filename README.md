@@ -1,3 +1,5 @@
+[[File:icons/search96.png]]
+
 # Searchima
 
 Add a custom search engine in Firefox.
