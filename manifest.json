@@ -1,47 +1,44 @@
 {
-  "description": "Add a custom search engine to the list of available search engines in the search bar.",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Searchima",
+  "description": "Add a custom search engine to the list of available search engines in the search bar.",
   "version": "5.0",
-
-  "browser_action": {
-    "default_icon": {
-      "16": "icons/search16.png",
-      "32": "icons/search32.png",
-      "64": "icons/search64.png",
-      "96": "icons/search96.png"
-    },
-    "default_title": "Searchima"
-  },
-
-  "commands": {
-    "_execute_browser_action": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+F"
-      },
-      "description": "Add custom search engine"
-    }
-  },
-
-  "background": {
-    "scripts": ["background.js"]
-  },
-
+  "author": "Your Name",
+  "homepage_url": "https://yourhomepage.com",
   "icons": {
     "16": "icons/search16.png",
     "32": "icons/search32.png",
     "64": "icons/search64.png",
     "96": "icons/search96.png"
   },
-
   "permissions": [
     "https://paste.mozilla.org/api/",
     "search"
   ],
-
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/search16.png",
+      "32": "icons/search32.png",
+      "64": "icons/search64.png",
+      "96": "icons/search96.png"
+    },
+    "default_title": "Searchima",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F"
+      },
+      "description": "Add custom search engine"
+    }
+  },
   "options_ui": {
     "page": "/search.html",
-    "browser_style": false,
+    "browser_style": true,
     "open_in_tab": true
   }
 }
