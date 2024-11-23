@@ -1,4 +1,4 @@
-![Searchima](http://url/to/img.png](https://raw.githubusercontent.com/PS2Comrade/Searchima/refs/heads/master/icons/search96.png))
+![Searchima](https://raw.githubusercontent.com/PS2Comrade/Searchima/refs/heads/master/icons/search96.png))
 
 # Searchima
 
