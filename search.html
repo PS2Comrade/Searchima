@@ -5,17 +5,20 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Searchima</title>
+
+    <title>Add custom search engine</title>
+
     <link rel="stylesheet" href="bootstrap.4.1.3.min.css" />
     <link rel="stylesheet" href="style.css" />
+
     <link rel="icon" href="icons/search.svg" type="image/svg+xml" />
 </head>
-<body class="bg-light custom-page">
+<body class="bg-light">
 
 <div id="instructions">
 <div id="arrow"></div>
 <div id="info" class="text-center">
-  <h3>Almost done just maybe a few steps</h3>
+  <h3>Almost done just two more steps</h3>
   <div>
     <img src="icons/urlbar.png">
     <p><strong><em>Right</em> click the address bar</strong></p>
@@ -31,7 +34,7 @@
 <div id="main">
 <div class="py-5 text-center">
 <img src="icons/search.svg" width="35" height="35">
-<h1>Searchima</h1>
+<h1>Add custom search engine</h1>
 </div>
 
 <form>
@@ -108,11 +111,29 @@
   </div>
 
   <div class="form-group">
-    <button type="submit" class="btn btn-primary">Let Searchima do its thing</button>
-    <button type="submit" class="btn btn-secondary advanced adv-hidden" id="show-preview">OpenSearch XML preview</button>
     <p>
-    As stated in original Add custom search engine extension <a target="_blank" href="https://github.com/evilpie/add-custom-search-engine/wiki/Technical-Limitation">technical limitation with Firefox WebExtensions</a>, all data entered when creating your custom search engine is <b>uploaded to paste.mozilla.org</b>.
-    After adding the search engine the data should be automatically removed.
+    Due to a <a target="_blank" href="https://github.com/evilpie/add-custom-search-engine/wiki/Technical-Limitation">technical limitation with Firefox WebExtensions</a>, all data entered when creating your custom search engine is <b>uploaded to a third-party service</b>.
+    You agree to the terms given by the service.
+    After adding the search engine the data <i>should</i> be automatically removed.
+    <b>The author of this extension is not responsible for the functionality of these services, and no warranty is provided.</b>
+    You agree to these terms by selecting a service below.
+    </p>
+
+    <div class="row">
+      <div class="col-sm-5">
+        <select id="input-service" class="form-control">
+          <option disabled>Select upload service</option>
+          <option>paste.mozilla.org (dead)</option>
+          <option>dpaste.org</option>
+        </select>
+      </div>
+      <div class="col-sm-7">
+        <button type="submit" class="btn btn-primary">Add custom search engine</button>
+        <button type="submit" class="btn btn-secondary advanced adv-hidden" id="show-preview">OpenSearch XML preview</button>
+      </div>
+    </div>
+
+    <p id="policy-link"></p>
   </div>
 </form>
 
@@ -123,4 +144,3 @@
 <script type="text/javascript" src="search.js"></script>
 </body>
 </html>
-
